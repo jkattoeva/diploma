@@ -1,0 +1,29 @@
+.Nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: gray;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0 2.5rem 0 0;
+}
+.Nav ul {
+  display: flex;
+  list-style: none;
+}
+.Nav a {
+  display: block;
+  padding: 10px 1rem;
+  color: mintcream;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.Nav a:hover {
+  background-color: rgba(0, 0, 0, 0.26);
+  border-radius: 5px;
+}
+.Logo {
+  font-size: 3vw;
+  font-weight: bold;
+  color: bisque;
+  padding: 0 20px 5px 0;
+}
