@@ -1,0 +1,25 @@
+.Header {
+  min-height: 60vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+.Header h1 {
+  padding: 0 0 0 2rem;
+  font-size: 3rem;
+  background-color: rgba(240, 248, 255, 0.671);
+}
+.List {
+  display: flex;
+}
+.List ul {
+  padding-right: 10rem;
+  background-color: rgba(240, 248, 255, 0.671);
+}
+.List li {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
