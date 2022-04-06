@@ -1,5 +1,5 @@
 import "./Header.css";
-import headerImage from "../../assets/shop.jpg";
+import headerImage from "../../assets/shop2.jpg";
 function Header() {
   const style = {
     backgroundImage: `url(${headerImage})`
