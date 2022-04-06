@@ -9,7 +9,7 @@ function Nav () {
         <li><a href="/">Kids</a></li>
       </ul>
       <div className="Logo">
-          Kelton
+          Shoes Store
         </div>
         <ul className="LastUl">
           <li><a href="/">Sign up</a></li>
