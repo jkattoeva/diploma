@@ -4,7 +4,7 @@ import "./Footer.css";
 function Footer() {
   return(
     <footer className="Footer">
-      Kelton @2022
+      Shoes store @2022
     </footer>
   );
 };
