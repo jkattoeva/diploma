@@ -1,5 +1,5 @@
 import "./Nav.css";
-
+import Logo from "../ui/Logo/Logo"
 
 function Nav () {
   return (
@@ -10,9 +10,7 @@ function Nav () {
         <li><a href="/">Teenagers</a></li>
         <li><a href="/">Kids</a></li>
       </ul>
-      <div className="Logo">
-    The Shoe Box
- </div>
+      <Logo />
         <ul className="LastUl">
           <li><a href="/">Sign up</a></li>
           <li><a href="/">Instagram</a></li>
