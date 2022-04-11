@@ -1,4 +1,6 @@
 import "./Nav.css";
+
+
 function Nav () {
   return (
     <nav className="Nav">
@@ -9,8 +11,8 @@ function Nav () {
         <li><a href="/">Kids</a></li>
       </ul>
       <div className="Logo">
-           The Shoe Box
-        </div>
+    The Shoe Box
+ </div>
         <ul className="LastUl">
           <li><a href="/">Sign up</a></li>
           <li><a href="/">Instagram</a></li>
