@@ -1,3 +1,5 @@
+import "Instagram.css";
+
 function Instagram() {
   return (
     <article>

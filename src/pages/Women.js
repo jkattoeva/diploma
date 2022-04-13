@@ -1,8 +1,8 @@
 function Women() {
   return (
     <article>
-      <h1>This is Women page</h1>
-      <p>lorjdsbcksjbck cgsjdkc swiucggc </p>
+      <h1>Women Categories</h1>
+      <p>lorem id deh de irf hei dediedj eifhei </p>
     </article>
   );
 }
