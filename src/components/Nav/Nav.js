@@ -13,8 +13,8 @@ function Nav () {
       </ul>
       <Logo />
         <ul className="LastUl">
-        <NavItem url="/signup">Sign up</NavItem>
-        <NavItem url="/Instagram">Instagram</NavItem>
+        <NavItem url="/signUp">Sign up</NavItem>
+        <NavItem url="/instagram">Instagram</NavItem>
         </ul>
     </nav>
   );

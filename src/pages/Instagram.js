@@ -1,4 +1,4 @@
-import "Instagram.css";
+// import "/Instagram.css";
 
 function Instagram() {
   return (
