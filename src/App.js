@@ -7,8 +7,9 @@ import Men from "./pages/Men";
 import Teenagers from "./pages/Teenagers";
 import Kids from "./pages/Kids";
 import SignUp from "./pages/SignUp";
-import Instagram from "./pages/Instagram";
+import About from "./pages/About";
 import { Route, Routes } from "react-router-dom";
+import Main from "./components/Main/Main";
 
 function App() {
   return (
@@ -21,10 +22,10 @@ function App() {
         <Route path="/men" element={<Men />}/>
         <Route path="/teenagers" element={<Teenagers />}/>
         <Route path="/kids" element={<Kids />}/>
+        <Route path="/about" element={<About />}/>
         <Route path="/signUp"element={<SignUp />}/>
-        <Route path="/instagram" element={<Instagram />}/>
       </Routes>
-
+      <Main />
       <Footer />
     </div>
   );
