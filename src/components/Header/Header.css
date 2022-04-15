@@ -1,5 +1,5 @@
 .Header {
-  min-height: 50vh;
+  min-height: 65vh;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -20,4 +20,12 @@
 }
 .third {
   padding-left: 120px;
+}
+.lg {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+img {
+  width: 300px;
 }
