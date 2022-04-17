@@ -24,6 +24,7 @@ function App() {
         <Route path="/kids" element={<Kids />}/>
         <Route path="/about" element={<About />}/>
         <Route path="/signUp"element={<SignUp />}/>
+
       </Routes>
       <Main />
       <Footer />

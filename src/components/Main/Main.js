@@ -3,21 +3,21 @@ import "./Main.css";
 function Main() {
   const cards = [
     {
-      id: 1,
-      text: "lorem lorem lorm dihdc frhi x",
-      title: "ZARA",
-      url: "https://hobokengirl.com/wp-content/uploads/2016/10/zara-logo1.jpg",
-    },
-    {
-      id: 2,
-      title: "accusamus beatae ad facilis cum similique qui sunt",
+      id: 3,
+      title: "Givenchy",
+      url: "https://i.pinimg.com/originals/9e/e3/cc/9ee3ccbda8eff947e2e069bae840f331.jpg",
       text: "accusamus beatae ad facilis cum similique qui sunt",
-      url: "https://hobokengirl.com/wp-content/uploads/2016/10/zara-logo1.jpg",
     },
     {
       id: 3,
-      title: "accusamus beatae ad facilis cum similique qui sunt",
-      url: "https://hobokengirl.com/wp-content/uploads/2016/10/zara-logo1.jpg",
+      title: "Louis Vuitton",
+      url: "https://marka-logo.com/wp-content/uploads/2020/04/Louis-Vuitton-Sembol.jpg",
+      text: "accusamus beatae ad facilis cum similique qui sunt",
+    },
+    {
+      id: 3,
+      title: "New Balance",
+      url: "https://pluspng.com/img-png/new-balance-logo-png-new-balance-logo-jpg-1598.jpg",
       text: "accusamus beatae ad facilis cum similique qui sunt",
     },
   ];
