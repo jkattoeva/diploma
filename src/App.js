@@ -19,7 +19,7 @@ function App() {
     <div className="App">
     
       <Header />
-      
+
       <Layout>
       <Routes>
         <Route path="/women" element={<Women />} />
@@ -31,7 +31,7 @@ function App() {
       </Routes>
       </Layout>
 
-      <Main />
+      {/* <Main /> */}
     </div>
   );
 }
