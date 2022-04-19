@@ -9,18 +9,14 @@ import Kids from "./pages/Kids";
 import SignUp from "./pages/SignUp";
 import About from "./pages/About";
 import { Route, Routes } from "react-router-dom";
-
 import Main from "./components/Main/Main";
-
-import Layout from "./components/Layout/Layout";
 
 function App() {
   return (
     <div className="App">
-    
+      <Nav />
       <Header />
 
-      <Layout>
       <Routes>
         <Route path="/women" element={<Women />} />
         <Route path="/men" element={<Men />}/>
@@ -28,10 +24,10 @@ function App() {
         <Route path="/kids" element={<Kids />}/>
         <Route path="/about" element={<About />}/>
         <Route path="/signUp"element={<SignUp />}/>
-      </Routes>
-      </Layout>
 
-      {/* <Main /> */}
+      </Routes>
+      <Main />
+      <Footer />
     </div>
   );
 }
