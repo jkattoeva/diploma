@@ -1,10 +1,16 @@
 import "./About.css";
+import Header from "../components/Header/Header";
+import headerImage from "../assets/about.jpg";
 
 function Instagram() {
   return (
     <article>
-      <h1>About</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia maiores quae asperiores delectus libero, excepturi beatae labore facilis magnam corporis! In excepturi impedit molestias voluptatem nostrum cupiditate pariatur, mollitia assumenda. </p>
+         <>
+    <Header title="We are the best shoes store in KG"
+     image={headerImage}>
+    Additionally, fashion has often dictated many design elements, such as whether shoes have very high heels or flat ones. Contemporary footwear varies widely in style, complexity and cost. 
+    </Header>
+    </>
       <div className="List">
       <ul>
         <li>High quality</li>

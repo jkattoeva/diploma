@@ -1,11 +1,15 @@
 import "./pages.css";
+import Header from "../components/Header/Header";
+import headerImage from "../assets/shop.jpg";
 
 function SignUp() {
   return (
-    <article>
-      <h1>This is  SignUp page</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-    </article>
+    <>
+    <Header title="You can Sign up in our store"
+     image={headerImage}>
+    Additionally, fashion has often dictated many design elements, such as whether shoes have very high heels or flat ones. Contemporary footwear varies widely in style, complexity and cost. 
+    </Header>
+    </>
   );
 }
  export default SignUp;
