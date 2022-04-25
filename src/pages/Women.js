@@ -1,32 +1,32 @@
 import "./pages.css";
 import Header from "../components/Header/Header";
 import headerImage from "../assets/women.jpg";
-import WomenList from "../components/WomenList/WomenList";
-import womenImage from "../assets/WomenList.jpg";
+import ProductList from "../components/ProductList/ProductList";
+import productImage from "../assets/WomenList.jpg";
 
 
 function Women() {
-  const women = {
+  const products = {
     versage: {
-      image: womenImage,
+      image: productImage,
       path: "/",
       title: "Versage",
       price: 1250,
     },
     louisvuiton: {
-      image: womenImage,
+      image: productImage,
       path: "/",
       title: "lorem",
       price: 120,
     },
     balenciaga: {
-      image: womenImage,
+      image: productImage,
       path: "/",
       title: "calkl",
       price: 150,
     },
     new: {
-      image: womenImage,
+      image: productImage,
       path: "/",
       title: "calkl",
       price: 150,
@@ -42,7 +42,7 @@ function Women() {
         whether shoes have very high heels or flat ones.
       </Header>
 
-      <WomenList  women={women} />
+      <ProductList  products={products} />
     </>
   );
 }
