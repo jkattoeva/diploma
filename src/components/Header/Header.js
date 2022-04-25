@@ -1,10 +1,9 @@
-import { Children } from "react";
 import "./Header.css";
 
 function Header( { image, title, children}) {
   return (
     <header className="Header">
-      <img src={image} />
+      <img src={image} alt="img" />
       <div className="lg">
       <section>
         <h1>{title}</h1>
