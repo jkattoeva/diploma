@@ -1,6 +1,3 @@
-import Nav from "./components/Nav/Nav";
-import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
 
 import Women from "./pages/Women";
 import Men from "./pages/Men";
@@ -10,7 +7,6 @@ import Home from "./pages/Home";
 import SignUp from "./pages/SignUp";
 import About from "./pages/About";
 import { Route, Routes } from "react-router-dom";
-import Main from "./components/Main/Main";
 import Layout from "./components/Layout/Layout";
 
 function App() {
