@@ -27,6 +27,7 @@ const products = [
   },
 ];
 
+
 export function getProducts() {
   return products;
 }

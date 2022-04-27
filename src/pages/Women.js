@@ -2,33 +2,50 @@ import "./pages.css";
 import Header from "../components/Header/Header";
 import headerImage from "../assets/women.jpg";
 import ProductList from "../components/ProductList/ProductList";
-import productImage from "../assets/WomenList.jpg";
+import versageBratz from "../assets/versagebratz.jpg";
+import versageMedusa from "../assets/versage.jpg";
+import versageSandals from "../assets/versageSandals.jpg";
+import nBalanceNergize from "../assets/nBalanceNergize.jpg";
+import nBalance990 from "../assets/nBalance990.jpg";
+import nBalance847v4 from "../assets/nBalance847v4.jpg";
 
 
 function Women() {
   const products = {
-    versage: {
-      image: productImage,
+    versagebratz: {
+      image: versageBratz,
       path: "/",
-      title: "Versage",
+      title: "MEDUSA AEVITAS PLATFORM PUMPS",
       price: 1250,
     },
-    louisvuiton: {
-      image: productImage,
+    versageMedusa: {
+      image: versageMedusa,
       path: "/",
-      title: "lorem",
+      title: "Medusa Biggie Platform Mules",
       price: 120,
     },
-    balenciaga: {
-      image: productImage,
+    versage: {
+      image: versageSandals,
       path: "/",
-      title: "calkl",
+      title: "Greca Maze Platform Sandals",
       price: 150,
     },
-    new: {
-      image: productImage,
+    newBalanceNergize: {
+      image: nBalanceNergize,
       path: "/",
-      title: "calkl",
+      title: " NB Nergize Sport",
+      price: 150,
+    },
+    newBalance990: {
+      image: nBalance990,
+      path: "/",
+      title: "USA 990v5 Core",
+      price: 150,
+    },
+    newBalace847v4: {
+      image: nBalance847v4,
+      path: "/",
+      title: "847v4",
       price: 150,
     },
   };

@@ -42,21 +42,19 @@ img {
   object-position: center;
 
   margin: 2rem 0;
-  border-radius: 2rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, .3);
 }
 
 .Header section {
   position: absolute;
   bottom: -2rem;
-  left: 5rem;
+  left: 1rem;
   right: 2rem;
   min-width: 400px;
-  margin-left: 3rem;
+  margin-left: 1rem;
 
   background-color: white;
   padding: 0 2rem 0;
-  border-radius: 2rem;
   font-size: 1.2rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, .3);
 }

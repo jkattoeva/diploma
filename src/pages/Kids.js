@@ -14,8 +14,6 @@ function Kids() {
     </Header>
 
     <ProductList products={getProducts()} />
-
-
     </>
     
   );
