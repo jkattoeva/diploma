@@ -3,6 +3,7 @@ import Header from "../components/Header/Header";
 import headerImage from "../assets/men.jpg";
 import ProductList from "../components/ProductList/ProductList";
 import productImage from "../assets/WomenList.jpg";
+import { getProducts } from "../data/products";
 
 
 function Men() {
@@ -42,7 +43,7 @@ function Men() {
     </Header>
 
 
-    <ProductList products={products} />
+    <ProductList products={getProducts()} />
 
     </>
   );

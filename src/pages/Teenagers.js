@@ -3,6 +3,7 @@ import Header from "../components/Header/Header";
 import headerImage from "../assets/teenagers.jpg";
 import ProductList from "../components/ProductList/ProductList";
 import productImage from "../assets/WomenList.jpg";
+import { getProducts } from "../data/products";
 
 function Teenagers() {
 
@@ -40,8 +41,8 @@ function Teenagers() {
     Additionally, fashion has often dictated many design elements, such as whether shoes have very high heels or flat ones. Contemporary footwear varies widely in style, complexity and cost. 
     </Header>
 
-    <ProductList products={products} />
 
+    <ProductList products={getProducts()} />
     </>
   );
 }

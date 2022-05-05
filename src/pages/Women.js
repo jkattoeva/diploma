@@ -8,6 +8,7 @@ import versageSandals from "../assets/versageSandals.jpg";
 import nBalanceNergize from "../assets/nBalanceNergize.jpg";
 import nBalance990 from "../assets/nBalance990.jpg";
 import nBalance847v4 from "../assets/nBalance847v4.jpg";
+import { getProducts } from "../data/products";
 
 
 function Women() {
@@ -15,7 +16,7 @@ function Women() {
     versagebratz: {
       image: versageBratz,
       path: "/",
-      title: "MEDUSA AEVITAS PLATFORM PUMPS",
+      title: "Medusa Aevitas Platfrom Pumps",
       price: 1250,
     },
     versageMedusa: {
@@ -59,8 +60,9 @@ function Women() {
         whether shoes have very high heels or flat ones.
       </Header>
 
-      <ProductList  products={products} />
-    </>
+
+      <ProductList products={getProducts()} />  
+        </>
   );
 }
 export default Women;
