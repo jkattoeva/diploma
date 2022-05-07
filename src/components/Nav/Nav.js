@@ -15,9 +15,6 @@ function Nav () {
         <NavItem url="/about">About</NavItem>
         <NavItem url="/signup">Sign up</NavItem>
         </ul>
-        {/* <ul>
-          <NavItem url="search"><img src={searchIcon} alt="search"/></NavItem>
-        </ul> */}
         <NavToggle />
       </div>
     </nav>
