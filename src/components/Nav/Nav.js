@@ -1,6 +1,5 @@
 import classes from "./Nav.module.css";
 import Logo from "../ui/Logo/Logo"
-import searchIcon from "../../assets/search.jpg";
 import NavItem from "./NavItem/NavItem";
 import NavToggle from "./NavToggle/navToggle";
 
