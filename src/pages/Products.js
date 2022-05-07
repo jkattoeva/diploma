@@ -4,7 +4,7 @@ import headerImage from "../assets/kids.jpg";
 import ProductList from "../components/ProductList/ProductList";
 import { getProducts } from "../data/products";
 
-function Kids() {
+function Products() {
 
   return (
     <>
@@ -20,4 +20,4 @@ function Kids() {
 }
 
 
- export default Kids;
+ export default Products;
