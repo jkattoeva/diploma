@@ -1,12 +1,13 @@
-import "./Nav.css";
+import classes from "./Nav.module.css";
 import Logo from "../ui/Logo/Logo"
 import searchIcon from "../../assets/search.jpg";
 import NavItem from "./NavItem/NavItem";
+import NavToggle from "./NavToggle/navToggle";
 
 function Nav () {
   return (
-    <nav className="Nav">
-      <div className="container">
+    <nav className={classes.Nav}>
+      <div className={classes.container}>
       <Logo />
         <ul className="ul">
         <NavItem url="/">Home</NavItem>
@@ -14,9 +15,10 @@ function Nav () {
         <NavItem url="/about">About</NavItem>
         <NavItem url="/signup">Sign up</NavItem>
         </ul>
-        <ul>
+        {/* <ul>
           <NavItem url="search"><img src={searchIcon} alt="search"/></NavItem>
-        </ul>
+        </ul> */}
+        <NavToggle />
       </div>
     </nav>
   );
