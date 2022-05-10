@@ -1,6 +1,6 @@
 import "./Header.css";
 
-function Header( { image, title, children}) {
+function Header( { image, video, title, children}) {
   return (
     <header className="Header">
       <img src={image} alt="img" />

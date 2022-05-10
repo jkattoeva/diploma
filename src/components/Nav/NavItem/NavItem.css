@@ -1,16 +1,19 @@
 .NavItem a {
   display: block;
   padding: 15px 1rem;
-  color: rgb(0, 0, 0);
+  color: white; 
   text-decoration: none;
   font-size: 1.2rem;
   border-bottom: 3px solid transparent;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .NavItem a.active {
-  border-color: rgb(0, 0, 0);
+  border-color: #b01ddc;
 }
 .NavItem a:hover {
-  background-color: rgba(0, 0, 0, 0.26);
+  background-color: #b01ddc;
   border-radius: 5px;
+  color: #ededed; 
+  transition: color .3s ease;
+
 }

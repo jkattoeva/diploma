@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-color: #1c1c1c;
+  perspective: 1000px;
 }
 
 code {
@@ -17,3 +20,4 @@ code {
   margin: 0 auto;
   padding: 0 1rem;
 }
+
