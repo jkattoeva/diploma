@@ -1,33 +1,35 @@
-.Main {
-  margin: 150px 0;
-  display: flex;
-
-  justify-content: space-around;
-}
-.Card {
-  display: flex;
-  flex-direction: column;
-  width: 370px;
-  min-height: 400px;
-  border: 3px solid rgb(45, 38, 38);
-  border-radius: 50px;
-  padding: 20px;
-
-}
-.Elements > div {
-  width: 90%;
-  margin: 10px;
-}
-
-.image  {
-  width: 100%;
-  height: 250px;
-}
-
-.Elements > h2 + p{
+.press {
   margin: 0;
   padding: 0;
+  width: 1500px;
+  height: 360px;
+  display: flex;
 }
-.Elements > h2 {
-  text-align: center;
+.press-item {
+  list-style: none;
+  width: 25%;
+  /* background: url(../../assets/shoe5.jpg); */
+  background-size: cover;
+  height: 100%;
+  transition: 0.5s;
+}
+.press:hover .press-item:nth-child(odd) {
+  transform: skewY(15deg);
+  box-shadow: inset 20px 0 50px rgba(0,0,0, .5);
+}
+.press:hover .press-item:nth-child(even) {
+  transform: skewY(-15deg);
+  box-shadow: inset 20px 0 50px rgba(0,0,0, .5);
+}
+.press .press-item:nth-child(1) {
+  background-position: 0;
+}
+.press .press-item:nth-child(2) {
+  background-position: -160px;
+}
+.press .press-item:nth-child(3) {
+  background-position: -320px;
+}
+.press .press-item:nth-child(4) {
+  background-position: -480px;
 }
