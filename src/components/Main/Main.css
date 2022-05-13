@@ -21,7 +21,7 @@
   transform: skewY(-15deg);
   box-shadow: inset 20px 0 50px rgba(0,0,0, .5);
 }
-.press .press-item:nth-child(1) {
+/* .press .press-item:nth-child(1) {
   background-position: 0;
 }
 .press .press-item:nth-child(2) {
@@ -32,4 +32,4 @@
 }
 .press .press-item:nth-child(4) {
   background-position: -480px;
-}
+} */

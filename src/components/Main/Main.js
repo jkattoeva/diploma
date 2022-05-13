@@ -14,21 +14,21 @@ function Main({ image }) {
       <li
         style={{
           background: `url(${image})`,
-          backgroundPosition: "-160px",
+          backgroundPosition: "-135px",
           backgroundSize: "cover"
         }}
         className="press-item"
       ></li>
       <li style={{
          background: `url(${image})`,
-         backgroundPosition: "-320px",
+         backgroundPosition: "-270px",
          backgroundSize: "cover"
 
           }}
            className="press-item"></li>
       <li style={{
          background: `url(${image})` ,
-         backgroundPosition: "-480px",
+         backgroundPosition: "-405px",
          backgroundSize: "cover"
          }} 
          className="press-item"></li>
