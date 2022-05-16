@@ -11,8 +11,8 @@ function Drawer({ open, toggle }) {
 
 
   return (
-    <div onClick={toggle} className={classNames.join(" ")}>
-      <div className={classes.backdrop}></div>
+    <div className={classNames.join(" ")}>
+      <div onClick={toggle} className={classes.backdrop}></div>
       <div className={classes.content}>
         <Logo />
         <Nav />
