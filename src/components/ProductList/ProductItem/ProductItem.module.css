@@ -11,7 +11,7 @@
 
 .ProductItem {
   position: relative;
-  flex: 0 0 30%;
+  flex: 0 0 350px;
   display: flex;
 
   margin-bottom: 7rem;

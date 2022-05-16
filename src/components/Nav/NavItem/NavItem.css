@@ -17,3 +17,12 @@
   transition: color .3s ease;
 
 }
+
+
+@media (max-width: 600px) {
+  .NavItem a {
+    border-bottom: none;
+    border-right: 5px solid transparent;
+  }
+}
+
