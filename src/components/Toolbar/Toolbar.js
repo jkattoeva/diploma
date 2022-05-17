@@ -3,7 +3,7 @@ import NavToggle from "../Nav/NavToggle/NavToggle";
 import Logo from "../ui/Logo/Logo";
 import classes from "./Toolbar.module.css";
 
-function Toolbar({ toggleDrawer}) {
+function Toolbar({ toggleDrawer }) {
   return (
     <nav className={classes.Toolbar}>
       <div className={classes.container}>
