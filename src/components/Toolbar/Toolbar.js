@@ -1,7 +1,7 @@
 import Nav from "../Nav/Nav";
 import Logo from "../ui/Logo/Logo";
 import classes from "./Toolbar.module.css";
-import NavToggle from "../Nav/NavToggle/navToggle";
+import NavToggle from "../Nav/NavToggle/NavToggle";
 
 function Toolbar({ toggleDrawer }) {
   return (
@@ -9,7 +9,7 @@ function Toolbar({ toggleDrawer }) {
       <div className={classes.container}>
         <Logo />
         <Nav />
-        <NavToggle callback={toggleDrawer} />
+        <NavToggle callback={toggleDrawer}/>
       </div>
     </nav>
   );
