@@ -1,10 +1,10 @@
 import "./pages.css";
 import Header from "../components/Header/Header";
 import headerImage from "../assets/kids.jpg";
-import { getCategories } from "../data/categories";
-import CategoryList from "../components/CategoryList/CategoryList";
+import { getProducts } from "../data/products";
+import ProductList from "../components/ProductList/ProductList";
 
-function Categories() {
+function Products() {
 
   return (
     <>
@@ -12,11 +12,13 @@ function Categories() {
      image={headerImage}>
     Additionally, fashion has often dictated many design elements, such as whether shoes have very high heels or flat ones. Contemporary footwear varies widely in style, complexity and cost. 
     </Header>
+    
 
+    <ProductList products={getProducts()} />
     </>
     
   );
 }
 
 
- export default Categories;
+ export default Products;

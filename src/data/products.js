@@ -11,6 +11,7 @@ const products = [
   {
     image: versageBratz,
     productId: "verasage",
+    categoryId: "women-shoes", 
     title: "Medusa Aevitas Platfrom Pumps",
     description: `Versage® is one of the world's most evolving, trend-setting beverage and lifestyle brands. It is an inspirational, stylish and refined symbol of a worldly way of life.`,
     price: 1250,
@@ -18,13 +19,15 @@ const products = [
   {
     image: versageMedusa,
     productId: "balenciaga",
+    categoryId: "men-shoes", 
     title: "Medusa Biggie Platform Mules",
     description: `oifjoeifjpsjfpsjf sefohisjoid s sfsf0f[s vs90fs0f8s f0s`,
     price: 120,
   },
   {
     image: versageSandals,
-    productId: "newbalance",
+    productId: "accessories",
+    categoryId: "balenciaga", 
     title: "Greca Maze Platform Sandals",
     description: `oifjoeifjpsjfpsjf sefohisjoid s sfsf0f[s vs90fs0f8s f0s`,
     price: 150,
@@ -32,6 +35,7 @@ const products = [
   {
     image: nBalanceNergize,
     productId: "louis vuiton",
+    categoryId: "balenciaga", 
     title: "NB Nergize Sport",
     description: `oifjoeifjpsjfpsjf sefohisjoid s sfsf0f[s vs90fs0f8s f0s`,
     price: 150,
@@ -39,6 +43,7 @@ const products = [
   {
     image: nBalance990,
     productId: "givenchy",
+     categoryId: "balenciaga", 
     title: "USA 990v5 Core",
     description: `oifjoeifjpsjfpsjf sefohisjoid s sfsf0f[s vs90fs0f8s f0s`,
     price: 150,
@@ -46,6 +51,7 @@ const products = [
   {
     image: nBalance847v4,
     productId: "adidas",
+    categoryId: "balenciaga", 
     title: "847v4",
     description: `oifjoeifjpsjfpsjf sefohisjoid s sfsf0f[s vs90fs0f8s f0s`,
     price: 150,
@@ -53,7 +59,10 @@ const products = [
 ];
 
 
-export function getProducts() {
+export function getProducts(categoryId) {
+  if (categoryId) {
+    return products.filter(product => product.categoryId === categoryId);
+  }
   return products;
 }
 

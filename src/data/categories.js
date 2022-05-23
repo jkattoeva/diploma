@@ -4,18 +4,24 @@ import categoryImage from "../assets/categories.jpg";
 
 const categories = [
   {
-    categoryId: "verasage",
-    title: "Medusa Aevitas Platfrom Pumps",
+    categoryId: "women-shoes",
+    title: "Women shoes",
     image: categoryImage,
     description: "Обувь — изделие для предохранения ног от внешних воздействий и несущее утилитарные и эстетические функции[1]."
   },
   {
-    categoryId: "balenciaga",
-    title: "Medusa Biggie Platform Mules",
+    categoryId: "men-shoes",
+    title: "Men shoes",
+    image: categoryImage,
+    description: "Обувь — изделие для предохранения ног от внешних воздействий и несущее утилитарные и эстетические функции[1]."
+  },
+  {
+    categoryId: "accessouries",
+    title: "accessories",
     image: categoryImage,
     description: "Обувь — изделие для предохранения ног от внешних воздействий и несущее утилитарные и эстетические функции[1]."
 
-  },
+  }
 ];
 
 
