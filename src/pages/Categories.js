@@ -1,8 +1,6 @@
 import "./pages.css";
 import Header from "../components/Header/Header";
 import headerImage from "../assets/kids.jpg";
-import { getCategories } from "../data/categories";
-import CategoryList from "../components/CategoryList/CategoryList";
 
 function Categories() {
 
