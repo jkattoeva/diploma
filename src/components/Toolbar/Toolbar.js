@@ -1,7 +1,7 @@
 import Nav from "../Nav/Nav";
-import NavToggle from "../Nav/NavToggle/NavToggle";
 import Logo from "../ui/Logo/Logo";
 import classes from "./Toolbar.module.css";
+import NavToggle from "../Nav/NavToggle/navToggle";
 
 function Toolbar({ toggleDrawer }) {
   return (
