@@ -1,4 +1,6 @@
-import categoryImage from "../assets/categories.jpg";
+import womenCategory from "../assets/womenCategory.jpg";
+import menCategory from "../assets/menCategory.jpg";
+import accesoriesCategory from "../assets/accesoriesCategory.jpg"
 
 
 
@@ -6,19 +8,19 @@ const categories = [
   {
     categoryId: "women-shoes",
     title: "Women shoes",
-    image: categoryImage,
+    image: womenCategory,
     description: "Обувь — изделие для предохранения ног от внешних воздействий и несущее утилитарные и эстетические функции[1]."
   },
   {
     categoryId: "men-shoes",
     title: "Men shoes",
-    image: categoryImage,
+    image: menCategory,
     description: "Обувь — изделие для предохранения ног от внешних воздействий и несущее утилитарные и эстетические функции[1]."
   },
   {
-    categoryId: "accessouries",
+    categoryId: "accessories",
     title: "accessories",
-    image: categoryImage,
+    image: accesoriesCategory,
     description: "Обувь — изделие для предохранения ног от внешних воздействий и несущее утилитарные и эстетические функции[1]."
 
   }

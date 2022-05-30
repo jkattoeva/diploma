@@ -1,4 +1,4 @@
-import CategoryItem from "./ProductItem/CategoryItem";
+import CategoryItem from "./CategoryItem/CategoryItem";
 import classes from "./CategoryList.module.css";
 
 function CategoryList({ categories }) {

@@ -1,5 +1,4 @@
 
-import Products from "./pages/Categories";
 import Home from "./pages/Home";
 import SignUp from "./pages/SignUp";
 import About from "./pages/About";
@@ -9,6 +8,7 @@ import Product from "./pages/Product";
 import NotFound from "./NotFound";
 import Categories from "./pages/Categories";
 import Category from "./pages/Category";
+import Products from "./pages/Products";
 
 function App() {
   return (

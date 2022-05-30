@@ -35,7 +35,7 @@ const products = [
   {
     image: nBalanceNergize,
     productId: "louis vuiton",
-    categoryId: "balenciaga", 
+    categoryId: "women-shoes", 
     title: "NB Nergize Sport",
     description: `oifjoeifjpsjfpsjf sefohisjoid s sfsf0f[s vs90fs0f8s f0s`,
     price: 150,
@@ -43,7 +43,7 @@ const products = [
   {
     image: nBalance990,
     productId: "givenchy",
-     categoryId: "balenciaga", 
+     categoryId: "men-shoes", 
     title: "USA 990v5 Core",
     description: `oifjoeifjpsjfpsjf sefohisjoid s sfsf0f[s vs90fs0f8s f0s`,
     price: 150,
@@ -51,7 +51,7 @@ const products = [
   {
     image: nBalance847v4,
     productId: "adidas",
-    categoryId: "balenciaga", 
+    categoryId: "accessories", 
     title: "847v4",
     description: `oifjoeifjpsjfpsjf sefohisjoid s sfsf0f[s vs90fs0f8s f0s`,
     price: 150,
