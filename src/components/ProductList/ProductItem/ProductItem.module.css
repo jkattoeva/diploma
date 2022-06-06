@@ -1,4 +1,4 @@
-.ProductItem img {
+.ProductItem .img {
   width: 100%;
   object-fit: cover;
   object-position: center;
@@ -11,15 +11,18 @@
 }
 
 
+
 .ProductItem {
   position: relative;
   flex: 0 0 350px;
-  display: flex;
   margin-bottom: 7rem;
+  
+  background-image: url("../../../assets/sneakershover.jpg");
+
 
 }
 
-.ProductItem a {
+.ProductItem .a {
   flex: 0 0 350px;
   position: absolute;
   bottom: -5rem;
@@ -37,6 +40,13 @@
   font-size: 1.2rem;
   font-weight: bold;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.ProductItem .img:hover {
+  opacity: 0;
+  
+}
+.ProductItem .hoverImage:hover {
+  background-image: url("../../../assets/menCategory.jpg");
 }
 .ProductItem .price {
   display: flex;

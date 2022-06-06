@@ -1,4 +1,4 @@
-import versageBratz from "../assets/versagebratz.jpg";
+import versageBratz from "../assets/sneakers.jpg";
 import versageMedusa from "../assets/versage.jpg";
 import versageSandals from "../assets/versageSandals.jpg";
 import nBalanceNergize from "../assets/nBalanceNergize.jpg";
@@ -19,7 +19,7 @@ const products = [
   {
     image: versageMedusa,
     productId: "balenciaga",
-    categoryId: "men-shoes", 
+    categoryId: "women-shoes", 
     title: "Medusa Biggie Platform Mules",
     description: `oifjoeifjpsjfpsjf sefohisjoid s sfsf0f[s vs90fs0f8s f0s`,
     price: 120,
@@ -52,6 +52,14 @@ const products = [
     image: nBalance847v4,
     productId: "adidas",
     categoryId: "accessories", 
+    title: "847v4",
+    description: `oifjoeifjpsjfpsjf sefohisjoid s sfsf0f[s vs90fs0f8s f0s`,
+    price: 150,
+  },
+  {
+    image: nBalance847v4,
+    productId: "nike",
+    categoryId: "men-shoes", 
     title: "847v4",
     description: `oifjoeifjpsjfpsjf sefohisjoid s sfsf0f[s vs90fs0f8s f0s`,
     price: 150,

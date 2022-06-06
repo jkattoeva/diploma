@@ -37,3 +37,14 @@
   margin: 0;
   font-size: 2rem;
 }
+
+
+@media (max-width: 600px) {
+  .Header {
+    display: flex;
+    flex-direction: column;
+  }
+  .Header img {
+    width: 50%;
+  }
+}

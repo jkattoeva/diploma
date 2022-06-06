@@ -1,4 +1,4 @@
-.CategoryItem img {
+.image1 {
   width: 100%;
   object-fit: cover;
   object-position: center;
@@ -12,12 +12,10 @@
 .CategoryItem {
   position: relative;
   flex: 0 0 350px;
-  display: flex;
-
   margin-bottom: 7rem;
 }
 
-.CategoryItem a {
+.CategoryItem .title {
   flex: 0 0 350px;
   position: absolute;
   bottom: -5rem;
