@@ -9,6 +9,8 @@ import NotFound from "./NotFound";
 import Categories from "./pages/Categories";
 import Category from "./pages/Category";
 import Products from "./pages/Products";
+import Cart from "./pages/Cart";
+import Favourite from "./pages/Favourite";
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/signUp" element={<SignUp />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/favourite" element={<Favourite />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>

@@ -1,19 +1,19 @@
-import womenCategory from "../assets/womenCategory.jpg";
-import menCategory from "../assets/menCategory.jpg";
+import womenCategory from "../assets/forWomen2.jpg";
+import menCategory from "../assets/forMen.jpg";
 import accesoriesCategory from "../assets/accesoriesCategory.jpg"
 
 
 
 const categories = [
   {
-    categoryId: "women-shoes",
-    title: "Women shoes",
+    categoryId: "women",
+    title: "For Women",
     image: womenCategory,
     description: "Обувь — изделие для предохранения ног от внешних воздействий и несущее утилитарные и эстетические функции[1]."
   },
   {
-    categoryId: "men-shoes",
-    title: "Men shoes",
+    categoryId: "men",
+    title: " For Men ",
     image: menCategory,
     description: "Обувь — изделие для предохранения ног от внешних воздействий и несущее утилитарные и эстетические функции[1]."
   },

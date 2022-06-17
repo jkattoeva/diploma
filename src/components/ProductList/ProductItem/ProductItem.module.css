@@ -41,13 +41,13 @@
   font-weight: bold;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
-.ProductItem .img:hover {
+/* .ProductItem .img:hover {
   opacity: 0;
   
-}
-.ProductItem .hoverImage:hover {
+} */
+/* .ProductItem .hoverImage:hover {
   background-image: url("../../../assets/menCategory.jpg");
-}
+} */
 .ProductItem .price {
   display: flex;
   flex: 0 0 350px;

@@ -2,7 +2,7 @@ import "./About.css";
 import Header from "../components/Header/Header";
 import headerImage from "../assets/aboutImage.jpg";
 
-function Instagram() {
+function About() {
   return (
     <article>
          <>
@@ -26,4 +26,4 @@ function Instagram() {
     </article>
   );
 }
- export default Instagram;
+ export default About;
