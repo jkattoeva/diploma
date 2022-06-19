@@ -6,8 +6,7 @@ import Favourite from "../../assets/favourite.svg";
 
 function Nav () {
   return (
-    <div className={classes.Nav}>
-    <ul className={classes.firstUl}>
+      <ul className={classes.Nav}>
         <NavItem url="/">Home</NavItem>
         <NavItem url="/products">Products</NavItem>
         <NavItem url="/about">About</NavItem>
@@ -15,7 +14,6 @@ function Nav () {
         <NavItem url="/cart"><img src={Cart} alt="cart"/></NavItem>
         <NavItem url="/favourite"><img src={Favourite} alt="favourite"/></NavItem>
      </ul>
-    </div>
   );
 };
 

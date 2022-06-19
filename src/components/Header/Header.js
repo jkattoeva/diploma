@@ -3,7 +3,7 @@ import "./Header.css";
 
 function Header({ image, title, children }) {
   return (
-    <header className="Header">
+    <header className="Header container">
       {/* <Main image={image}/> */}
       <img src={image} alt="headerImage"/>
       <div className="description">

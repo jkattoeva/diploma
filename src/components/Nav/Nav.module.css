@@ -1,4 +1,6 @@
 .Nav {
+  display: flex;
+  justify-content: space-between;
   padding: 0 15px 15px;
   margin: 0;
 }
@@ -14,10 +16,9 @@
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 810px) {
   .Nav {
     flex-direction: column;
     margin: 1rem 0;
   }
 }
-
