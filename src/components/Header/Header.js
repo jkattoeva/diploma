@@ -4,8 +4,9 @@ import "./Header.css";
 function Header({ image, title, children }) {
   return (
     <header className="Header">
-      <Main image={image}/>
-      <div className="lg">
+      {/* <Main image={image}/> */}
+      <img src={image} alt="headerImage"/>
+      <div className="description">
         <section>
           <h1>{title}</h1>
           <p>{children}</p>

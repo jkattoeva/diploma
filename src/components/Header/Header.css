@@ -1,10 +1,11 @@
 
 
 .Header {
+  position: relative;
   display: flex;
   align-items: center;
   flex-direction: row-reverse;
-  margin: 3rem 0 5rem ;
+  /* background-image: url(../../assets/headerImage1.jpg); */
 }
 
 .Header img {
@@ -13,16 +14,17 @@
   min-height: 380px;
   object-fit: cover;
   object-position: center;
-  border-radius: 10px;
-
-  margin: 2rem 0;
-  box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+  /* border-radius: 10px; */
+  margin-bottom: 3rem;
+/* 
+  box-shadow: 0 0 10px rgba(0, 0, 0, .4); */
   
 }
 
 .Header section {
+  position: absolute;
   height: 100%;
-  bottom: -2rem;
+  bottom: -8rem;
   left: 1rem;
   right: 2rem;
   min-width: 400px;
@@ -30,7 +32,7 @@
   margin-right: 2rem;
   padding: 0 4rem 0;
   font-size: 1.2rem;
-   color: rgb(239, 239, 239);
+  color: rgb(239, 239, 239);
   /*background-color: #fdfdfd; */
 }
 .Header h1 {

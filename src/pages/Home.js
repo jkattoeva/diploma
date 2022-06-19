@@ -1,5 +1,5 @@
 import Header from "../components/Header/Header";
-import shoeImage from "../assets/headerimg.jpg";
+import shoeImage from "../assets/headerImage1.jpg";
 import CategoryList from "../components/CategoryList/CategoryList";
 import { getCategories } from "../data/categories";
 function Home() {
