@@ -1,7 +1,7 @@
 .Nav {
   display: flex;
   justify-content: space-between;
-  padding: 0 15px 15px;
+  flex-wrap: wrap;
   margin: 0;
 }
 .firstUl {
@@ -16,9 +16,9 @@
 }
 
 
-@media (max-width: 810px) {
+/* @media (max-width: 810px) {
   .Nav {
     flex-direction: column;
     margin: 1rem 0;
   }
-}
+} */
