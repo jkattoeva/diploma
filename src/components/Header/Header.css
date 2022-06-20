@@ -5,7 +5,6 @@
   display: flex;
   align-items: center;
   flex-direction: row-reverse;
-  /* background-image: url(../../assets/headerImage1.jpg); */
 }
 
 .Header img {
@@ -14,10 +13,7 @@
   min-height: 380px;
   object-fit: cover;
   object-position: center;
-  /* border-radius: 10px; */
   margin-bottom: 3rem;
-/* 
-  box-shadow: 0 0 10px rgba(0, 0, 0, .4); */
   
 }
 
@@ -33,7 +29,6 @@
   padding: 0 4rem 0;
   font-size: 1.2rem;
   color: rgb(239, 239, 239);
-  /*background-color: #fdfdfd; */
 }
 .Header h1 {
   margin: 0;

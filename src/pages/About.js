@@ -1,6 +1,6 @@
 import "./About.css";
 import Header from "../components/Header/Header";
-import headerImage from "../assets/aboutImage.jpg";
+import headerImage from "../assets/headerImage2.jpg";
 
 function About() {
   return (

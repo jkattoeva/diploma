@@ -1,4 +1,3 @@
-import Main from "../Main/Main";
 import "./Header.css";
 
 function Header({ image, title, children }) {

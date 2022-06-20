@@ -1,6 +1,6 @@
 import "./pages.css";
 import Header from "../components/Header/Header";
-import headerImage from "../assets/productsImage.jpg";
+import headerImage from "../assets/headerImage3.jpg";
 import { getProducts } from "../data/products";
 import ProductList from "../components/ProductList/ProductList";
 
