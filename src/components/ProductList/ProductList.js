@@ -4,7 +4,6 @@ import classes from "./ProductList.module.css";
 function ProductList({ products }) {
 
   const productItems = products.map(product => (
-    // products[id].type === "women"?
     <ProductItem key={product.productId} product={product} />
     
   ))
