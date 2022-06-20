@@ -1,6 +1,6 @@
 import "./pages.css";
 import Header from "../components/Header/Header";
-import headerImage from "../assets/signupImage.jpg";
+import headerImage from "../assets/headersgnup.jpg";
 
 function SignUp() {
   return (

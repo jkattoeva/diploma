@@ -6,15 +6,15 @@ function Header() {
   return (
   <>
   <div className="row">
-    <div>
+    <div className="first">
       <h1>VEGAN, ETHICAL AND SUSTAINABLE</h1>
       <p>Hand-made with love by our family fun factory in Portugal using over 95% recycled materials (we’re aiming for 100%)</p>
     </div>
-    <div>
+    <div className="first">
       <h1>VEGAN, ETHICAL AND SUSTAINABLE</h1>
       <p>Hand-made with love by our family fun factory in Portugal using over 95% recycled materials (we’re aiming for 100%)</p>
     </div>
-    <div>
+    <div className="first">
       <h1>VEGAN, ETHICAL AND SUSTAINABLE</h1>
       <p>Hand-made with love by our family fun factory in Portugal using over 95% recycled materials (we’re aiming for 100%)</p>
     </div>
