@@ -1,15 +1,20 @@
-import "./pages.css";
 import Header from "../components/Header/Header";
-import headerImage from "../assets/headerSignup.jpg";
+import image from "../assets/headerImage.jpg";
 
 function Cart() {
+
+
+
   return (
     <>
-    <Header title="You can Sign up in our store"
-     image={headerImage}>
-    Additionally, fashion has often dictated many design elements, such as whether shoes have very high heels or flat ones. Contemporary footwear varies widely in style, complexity and cost. 
-    </Header>
+      <Header
+        title="Your Shopping Cart"
+        image={image}>
+        Please review items in your cart.
+      </Header>
     </>
   );
 }
- export default Cart;
+
+
+export default Cart; 
