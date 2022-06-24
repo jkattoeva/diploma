@@ -4,6 +4,8 @@ import { useDispatch, useSelector } from "react-redux";
 import { getProducts } from "../data/products";
 import { Link } from "react-router-dom";
 import classes from "./Cart.module.css";
+import { decrement, increment, remove } from "../redux/сartSlice";
+
 
 function Cart() {
   const items = useSelector((store) => store.cart.items);
@@ -23,35 +25,14 @@ function Cart() {
           <div className={classes.prices}>{items[product.productId]} $
           {product.price * items[product.productId]}
           </div>
-          <button
-            className={classes.buttons}
-            onClick={() =>
-              dispatch({ type: "cart/decrement", payload: product.productId })
-            }
-          >
-            -
-          </button>
-          <button
-            className={classes.buttons}
-            onClick={() =>
-              dispatch({ type: "cart/increment", payload: product.productId })
-            }
-          >
-            +
-          </button>
-          <button
-          className={classes.buttons}
-            onClick={() =>
-              dispatch({ type: "cart/delete", payload: product.productId })
-            }
-          >
-            Delete
-          </button>
+          <button onClick={() => dispatch(decrement(product.productId))}>-</button>
+          <button onClick={() => dispatch(increment(product.productId))}>+</button>
+          <button onClick={() => dispatch(remove(product.productId))}>Delete</button>
         </div>
       );
     });
 
-  if (!output) {
+  if (!output.length) {
     output = "No items in the cart.";
   }
 
