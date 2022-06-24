@@ -3,12 +3,14 @@
   justify-content: space-evenly;
   flex-wrap: wrap;
   padding: 2px;
+  align-items: center;
 }
 .CartList .buttons {
   padding: 0 2rem;
   font-size: 1rem;
   font-weight: bold;
   border: none;
+  height: 25px;
 }
 
 .CartList .buttons:hover {
@@ -21,10 +23,31 @@
   color: white;
   text-decoration: none;
   background-color: rgba(0, 0, 0, 0.164);
-  padding: 5px;
+  padding:0 5px;
   border-radius: 5px;
+  height: 25px;
 }
 
  .prices {
   color: white;
+}
+.CartList .image {
+  width: 100px;
+  object-fit: cover;
+  object-position: bottom;
+  height: 100px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 2;
+  overflow: hidden;
+  transition: 1s;
+}
+.checkout {
+  color: white;
+  font-size: large;
+  text-decoration: none;
+}
+ .total {
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
