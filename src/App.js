@@ -5,7 +5,6 @@ import About from "./pages/About";
 import { Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
 import Product from "./pages/Product";
-import NotFound from "./NotFound";
 import Categories from "./pages/Categories";
 import Category from "./pages/Category";
 import Products from "./pages/Products";
@@ -14,6 +13,8 @@ import Favourite from "./pages/Favourite";
 import Checkout from "./pages/CheckOut";
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
+import Auth from "./pages/Auth";
+import NotFound from "./pages/NotFound";
 
 function App() {
   const dispatch = useDispatch();
@@ -35,6 +36,7 @@ function App() {
           <Route path="/signUp" element={<SignUp />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/checkout" element={<Checkout />} />
+          <Route path="/auth" element={<Auth />} />
           <Route path="/favourite" element={<Favourite />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
