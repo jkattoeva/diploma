@@ -4,7 +4,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { getProducts } from "../data/products";
 import { Link } from "react-router-dom";
 import classes from "./Cart.module.css";
-import icon from "../assets/delete.svg";
 
 function Cart() {
   const items = useSelector((store) => store.cart.items);
