@@ -3,6 +3,7 @@ import image from "../assets/headerImage.jpg";
 import { useDispatch, useSelector } from "react-redux";
 import { getProducts } from "../data/products";
 import { Link } from "react-router-dom";
+import classes from "./Cart.module.css";
 
 function Cart() {
   const items = useSelector((store) => store.cart.items);
@@ -16,10 +17,13 @@ function Cart() {
       total += product.price * items[product.productId];
 
       return (
-        <div>
-          <Link to="">{product.title}</Link> {items[product.productId]} $
+        <div className={classes.CartList}>
+          <Link className={classes.a} to="">{product.title}</Link> 
+          <div className={classes.prices}>{items[product.productId]} $
           {product.price * items[product.productId]}
+          </div>
           <button
+            className={classes.buttons}
             onClick={() =>
               dispatch({ type: "cart/decrement", payload: product.productId })
             }
@@ -27,6 +31,7 @@ function Cart() {
             -
           </button>
           <button
+            className={classes.buttons}
             onClick={() =>
               dispatch({ type: "cart/increment", payload: product.productId })
             }
@@ -34,6 +39,7 @@ function Cart() {
             +
           </button>
           <button
+          className={classes.buttons}
             onClick={() =>
               dispatch({ type: "cart/delete", payload: product.productId })
             }
@@ -56,7 +62,7 @@ function Cart() {
       <div>
         {output}
         <hr />
-        Total: ${total}
+        <div className={classes.total}>Total: ${total}</div>
         <Link to="/checkout">Checkout</Link>
       </div>
     </>
