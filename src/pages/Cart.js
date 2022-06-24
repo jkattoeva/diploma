@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { getProducts } from "../data/products";
 import { Link } from "react-router-dom";
 import classes from "./Cart.module.css";
+import icon from "../assets/delete.svg";
 
 function Cart() {
   const items = useSelector((store) => store.cart.items);
@@ -18,6 +19,7 @@ function Cart() {
 
       return (
         <div className={classes.CartList}>
+          <img src={product.image} alt={product.title} className={classes.image} />
           <Link className={classes.a} to="">{product.title}</Link> 
           <div className={classes.prices}>{items[product.productId]} $
           {product.price * items[product.productId]}
@@ -63,7 +65,7 @@ function Cart() {
         {output}
         <hr />
         <div className={classes.total}>Total: ${total}</div>
-        <Link to="/checkout">Checkout</Link>
+        <Link className={classes.checkout} to="/checkout"><button className={classes.buttons}>CheckOut</button></Link>
       </div>
     </>
   );
