@@ -11,8 +11,17 @@ import Category from "./pages/Category";
 import Products from "./pages/Products";
 import Cart from "./pages/Cart";
 import Favourite from "./pages/Favourite";
+import Checkout from "./pages/CheckOut";
+import { useEffect } from "react";
+import { useDispatch } from "react-redux";
 
 function App() {
+  const dispatch = useDispatch();
+  
+  useEffect(() => {
+    dispatch({ type: 'cart/restore' });
+  }, []);
+
   return (
     <div className="App">
       <Layout>
@@ -25,6 +34,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/signUp" element={<SignUp />} />
           <Route path="/cart" element={<Cart />} />
+          <Route path="/checkout" element={<Checkout />} />
           <Route path="/favourite" element={<Favourite />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
