@@ -35,20 +35,4 @@
   font-weight: bold;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
-.CategoryItem .price {
-  display: flex;
-  flex: 0 0 350px;
-  
-  position: absolute;
-  top: -1.5rem;
-  z-index: 3;
 
-  background-color: rgb(23, 20, 20);
-  color: rgb(238, 238, 238);
-  padding: 1rem;
-  text-align: center;
-  border-radius: 40%;
-  font-size: 1.2rem;
-  font-weight: bold;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}

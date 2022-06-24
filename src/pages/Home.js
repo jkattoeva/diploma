@@ -14,6 +14,7 @@ function Home() {
     <Section />
 
     <CategoryList categories={getCategories()}/>
+    
     </>
   );
 }

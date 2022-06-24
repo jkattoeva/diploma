@@ -19,11 +19,9 @@
 
 .Header section {
   position: absolute;
-  height: 100%;
-  bottom: -8rem;
+  top: 8rem;
   left: 1rem;
   right: 2rem;
-  min-width: 400px;
   margin-left: 1rem;
   margin-right: 2rem;
   padding: 0 4rem 0;

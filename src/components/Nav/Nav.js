@@ -3,6 +3,7 @@ import NavItem from "./NavItem/NavItem";
 import Search from "../../assets/Profile.svg";
 import Cart from "../../assets/Cart.svg";
 import Favourite from "../../assets/favourite.svg";
+import CartLink from "../CartLink.js/CartLink";
 
 function Nav () {
   return (
@@ -11,7 +12,7 @@ function Nav () {
         <NavItem url="/products">Products</NavItem>
         <NavItem url="/about">About</NavItem>
         <NavItem url="/signup"><img src={Search} alt="search"/></NavItem>
-        <NavItem url="/cart"><img src={Cart} alt="cart"/></NavItem>
+        <CartLink />
         <NavItem url="/favourite"><img src={Favourite} alt="favourite"/></NavItem>
      </ul>
   );
