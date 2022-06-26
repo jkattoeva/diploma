@@ -108,9 +108,9 @@ const products = [
     image: women2,
     productId: "rettjy",
     categoryId: "women", 
-    title: "847v4",
-    description: `oifjoeifjpsjfpsjf sefohisjoid s sfsf0f[s vs90fs0f8s f0s`,
-    price: 150,
+    title: "Off-White",
+    description: `High Allen 100mm sandals`,
+    price: 446,
   },
   {
     image: women3,
