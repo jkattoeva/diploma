@@ -13,12 +13,16 @@ import allen2 from "../assets/allen2.jpg";
 import allen3 from "../assets/allen3.jpg";
 import allen4 from "../assets/allen4.jpg";
 
+import meteor1 from "../assets/meteor1.jpg";
+import meteor2 from "../assets/meteor2.jpg";
+import meteor3 from "../assets/meteor3.jpg";
+import meteor4 from "../assets/meteor4.jpg";
 
 
 
 
 
-import versageMedusa from "../assets/versage.jpg";
+
 import versageSandals from "../assets/versageSandals.jpg";
 import nBalanceNergize from "../assets/nBalanceNergize.jpg";
 import nBalance990 from "../assets/nBalance990.jpg";
@@ -58,12 +62,15 @@ const products = [
     price: 1250,
   },
   {
-    image: versageMedusa,
-    productId: "balenciaga",
+    image: meteor1,
+    image2: meteor2,
+    image3: meteor3,
+    image4: meteor4,
+    productId: "OW",
     categoryId: "women", 
-    title: "Medusa Biggie Platform Mules",
-    description: `oifjoeifjpsjfpsjf sefohisjoid s sfsf0f[s vs90fs0f8s f0s`,
-    price: 120,
+    title: "Off-White",
+    description: `Meteor logo-tag mules`,
+    price: 433,
   },
   {
     image: versageSandals,
