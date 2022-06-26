@@ -1,4 +1,11 @@
-import versageBratz from "../assets/sneakers.jpg";
+import versage1 from "../assets/versage1.jpg";
+import versage2 from "../assets/versage2.jpg";
+import versage3 from "../assets/versage3.jpg";
+import versage4 from "../assets/versage4.jpg";
+
+
+
+
 import versageMedusa from "../assets/versage.jpg";
 import versageSandals from "../assets/versageSandals.jpg";
 import nBalanceNergize from "../assets/nBalanceNergize.jpg";
@@ -29,11 +36,14 @@ import acces4 from "../assets/acces4.jpg";
 
 const products = [
   {
-    image: versageBratz,
+    image: versage1,
+    image2: versage2,
+    image3: versage3,
+    image4: versage4,
     productId: "verasage",
     categoryId: "women", 
     title: "Medusa Aevitas Platfrom ",
-    description: `Versage® is one of the world's most evolving, trend-setting beverage and lifestyle brands. It is an inspirational, stylish and refined symbol of a worldly way of life.`,
+    description: `Versage® is one of the world's most evolving.`,
     price: 1250,
   },
   {

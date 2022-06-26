@@ -1,0 +1,39 @@
+.ProductPage {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  padding: 1rem;
+}
+.ProductPage .image {
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 10%;
+  transition: 1s;
+  margin: 1rem;
+}
+.ProductPage .image:hover {
+  transform: scale(.9);
+  transition: 1s;
+}
+.ProductPage .images {
+  width: 700px;
+}
+.ProductPage .section {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 2rem;
+}
+.ProductPage .buttons {
+  display: flex;
+  gap: 20px;
+}
+.ProductPage .svg {
+  border: 2px solid black;
+  border-radius: 20%;
+  padding: 0 5px;
+}
+.ProductPage .svg:hover {
+  background-color: #6c5454;
+  transition: 1s;
+}

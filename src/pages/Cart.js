@@ -3,7 +3,7 @@ import image from "../assets/headerImage.jpg";
 import { useDispatch, useSelector } from "react-redux";
 import { getProducts } from "../data/products";
 import { Link } from "react-router-dom";
-import classes from "./Cart.module.css";
+import classes from "../components/PagesStyles/Cart.module.css";
 import { decrement, increment, remove } from "../redux/сartSlice";
 
 
