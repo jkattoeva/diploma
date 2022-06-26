@@ -1,5 +1,4 @@
 import { useParams } from "react-router-dom";
-import CartButton from "../components/CartButton/CartButton";
 import ProductPage from "../components/ProductPage/ProductPage";
 import { getProduct } from "../data/products";
 

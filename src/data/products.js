@@ -18,13 +18,22 @@ import meteor2 from "../assets/meteor2.jpg";
 import meteor3 from "../assets/meteor3.jpg";
 import meteor4 from "../assets/meteor4.jpg";
 
+import vega1 from "../assets/vega1.jpg";
+import vega2 from "../assets/vega2.jpg";
+import vega3 from "../assets/vega3.jpg";
+import vega4 from "../assets/vega4.jpg";
+
+import vulcanized1 from "../assets/vulcanized1.jpg";
+import vulcanized2 from "../assets/vulcanized2.jpg";
+import vulcanized3 from "../assets/vulcanized3.jpg";
+import vulcanized4 from "../assets/vulcanized4.jpg";
+
 
 
 
 
 
 import versageSandals from "../assets/versageSandals.jpg";
-import nBalanceNergize from "../assets/nBalanceNergize.jpg";
 import nBalance990 from "../assets/nBalance990.jpg";
 import nBalance847v4 from "../assets/nBalance847v4.jpg";
 
@@ -81,20 +90,26 @@ const products = [
     price: 150,
   },
   {
-    image: nBalanceNergize,
+    image: vega1,
+    image2: vega2,
+    image3: vega3,
+    image4: vega4,
     productId: "louis vuiton",
     categoryId: "men", 
-    title: "NB Nergize Sport",
-    description: `oifjoeifjpsjfpsjf sefohisjoid s sfsf0f[s vs90fs0f8s f0s`,
-    price: 150,
+    title: "VEJA",
+    description: `V-10 leather low-top sneakers`,
+    price: 137,
   },
   {
-    image: nBalance990,
+    image: vulcanized1,
+    image2: vulcanized2,
+    image3: vulcanized3,
+    image4: vulcanized4,
     productId: "givenchy",
-     categoryId: "men", 
-    title: "USA 990v5 Core",
-    description: `oifjoeifjpsjfpsjf sefohisjoid s sfsf0f[s vs90fs0f8s f0s`,
-    price: 150,
+    categoryId: "men", 
+    title: "Off-White",
+    description: `Vulcanized low-top sneakers`,
+    price: 230,
   },
   {
     image: nBalance847v4,
@@ -159,12 +174,15 @@ const products = [
     price: 150,
   },
   {
-    image: women7,
+    image: odsy1,
+    image2: odsy2,
+    image3: odsy3,
+    image4: odsy4,
     productId: "ertyj",
     categoryId: "women", 
-    title: "847v4",
-    description: `oifjoeifjpsjfpsjf sefohisjoid s sfsf0f[s vs90fs0f8s f0s`,
-    price: 150,
+    title: "Off-White",
+    description: `Odsy 1000 sneakers`,
+    price: 382,
   },
   {
     image: men1,
