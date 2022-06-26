@@ -28,20 +28,23 @@ import vulcanized2 from "../assets/vulcanized2.jpg";
 import vulcanized3 from "../assets/vulcanized3.jpg";
 import vulcanized4 from "../assets/vulcanized4.jpg";
 
+import odsy1 from "../assets/odsy1.jpg";
+import odsy2 from "../assets/odsy2.jpg";
+import odsy3 from "../assets/odsy3.jpg";
+import odsy4 from "../assets/odsy4.jpg";
+
 
 
 
 
 
 import versageSandals from "../assets/versageSandals.jpg";
-import nBalance990 from "../assets/nBalance990.jpg";
 import nBalance847v4 from "../assets/nBalance847v4.jpg";
 
 import women3 from "../assets/women3.jpg";
 import women4 from "../assets/women4.jpg";
 import women5 from "../assets/women5.jpg";
 import women6 from "../assets/women6.jpg";
-import women7 from "../assets/women7.jpg";
 
 import men1 from "../assets/men1.jpg";
 import men2 from "../assets/men2.jpg";
