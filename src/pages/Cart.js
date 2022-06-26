@@ -22,10 +22,12 @@ function Cart() {
         <div className={classes.CartList}>
           <img src={product.image} alt={product.title} className={classes.image} />
           <Link className={classes.a} to="">{product.title}</Link> 
-          <div className={classes.prices}>{items[product.productId]} $
+          {items[product.productId]}
+          
+          <button onClick={() => dispatch(decrement(product.productId))}>-</button>
+          <div className={classes.prices}> $
           {product.price * items[product.productId]}
           </div>
-          <button onClick={() => dispatch(decrement(product.productId))}>-</button>
           <button onClick={() => dispatch(increment(product.productId))}>+</button>
           <button onClick={() => dispatch(remove(product.productId))}>Delete</button>
         </div>
