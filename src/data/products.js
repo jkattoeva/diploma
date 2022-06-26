@@ -3,6 +3,13 @@ import versage2 from "../assets/versage2.jpg";
 import versage3 from "../assets/versage3.jpg";
 import versage4 from "../assets/versage4.jpg";
 
+import khaite1 from "../assets/khaite1.jpg";
+import khaite2 from "../assets/khaite2.jpg";
+import khaite3 from "../assets/khaite3.jpg";
+import khaite4 from "../assets/khaite4.jpg";
+
+
+
 
 
 
@@ -11,7 +18,7 @@ import versageSandals from "../assets/versageSandals.jpg";
 import nBalanceNergize from "../assets/nBalanceNergize.jpg";
 import nBalance990 from "../assets/nBalance990.jpg";
 import nBalance847v4 from "../assets/nBalance847v4.jpg";
-import women1 from "../assets/women1.jpg";
+
 import women2 from "../assets/women2.jpg";
 import women3 from "../assets/women3.jpg";
 import women4 from "../assets/women4.jpg";
@@ -87,12 +94,15 @@ const products = [
     price: 150,
   },
   {
-    image: women1,
+    image: khaite1,
+    image2: khaite2,
+    image3: khaite3,
+    image4: khaite4,
     productId: "nierthjyke",
     categoryId: "women", 
-    title: "847v4",
-    description: `oifjoeifjpsjfpsjf sefohisjoid s sfsf0f[s vs90fs0f8s f0s`,
-    price: 150,
+    title: "KHAITE",
+    description: `The Rockaway slides .`,
+    price: 248,
   },
   {
     image: women2,
