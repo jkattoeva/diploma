@@ -8,6 +8,11 @@ import khaite2 from "../assets/khaite2.jpg";
 import khaite3 from "../assets/khaite3.jpg";
 import khaite4 from "../assets/khaite4.jpg";
 
+import allen1 from "../assets/allen1.jpg";
+import allen2 from "../assets/allen2.jpg";
+import allen3 from "../assets/allen3.jpg";
+import allen4 from "../assets/allen4.jpg";
+
 
 
 
@@ -19,7 +24,6 @@ import nBalanceNergize from "../assets/nBalanceNergize.jpg";
 import nBalance990 from "../assets/nBalance990.jpg";
 import nBalance847v4 from "../assets/nBalance847v4.jpg";
 
-import women2 from "../assets/women2.jpg";
 import women3 from "../assets/women3.jpg";
 import women4 from "../assets/women4.jpg";
 import women5 from "../assets/women5.jpg";
@@ -105,8 +109,11 @@ const products = [
     price: 248,
   },
   {
-    image: women2,
-    productId: "rettjy",
+    image: allen1,
+    image2: allen2,
+    image3: allen3,
+    image4: allen4,
+    productId: "Off-White",
     categoryId: "women", 
     title: "Off-White",
     description: `High Allen 100mm sandals`,
