@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { getProducts } from "../data/products";
 import { Link, useNavigate } from "react-router-dom";
 import { checkout } from "../redux/сartSlice";
+import classes from "./Checkout.module.css";
 
 function Checkout() {
   const dispatch = useDispatch();
@@ -38,7 +39,7 @@ function Checkout() {
   }
 
   return (
-    <>
+    <div className={classes.Checkout}>
       <Header
         title="Checkout"
         image={image}>
@@ -49,29 +50,29 @@ function Checkout() {
         <hr />
         Total: ${total}
 
-        <form onSubmit={onCheckout}>
+        <form onSubmit={onCheckout} className={classes.inputs}>
           <label>
-            First name:
+            First name: <br/>
             <input type="text" name="firstName" required />
           </label>
           <label>
-            Last name:
+            Last name:<br/>
             <input type="text" name="lastName" required />
           </label>
           <label>
-            Address:
+            Address:<br/>
             <input type="text" name="address" required />
           </label>
           <label>
-            Phone:
+            Phone:<br/>
             <input type="text" name="phone" required />
           </label>
 
-          <button>Complete the order</button>
+          <button className={classes.btn}>Complete the order</button>
         </form>
 
       </div>
-    </>
+    </div>
   );
 }
 
