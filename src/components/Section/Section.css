@@ -1,32 +1,26 @@
 .Section {
   position: relative;
-  display: flex;
-  align-items: center;
-  flex-direction: row-reverse;
 }
 
 .Section img {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 40vh;
-  min-height: 380px;
+  height: 100%;
   object-fit: cover;
-  object-position: center;
-  margin-bottom: 3rem;
 }
 
 .Section .Text {
-  position: absolute;
-  height: 100%;
-  bottom: -8rem;
-  left: 1rem;
-  right: 2rem;
-  min-width: 400px;
-  margin-left: 1rem;
-  margin-right: 2rem;
-  padding: 0 4rem 0;
-  font-size: 2rem;
-  color: rgb(239, 239, 239);
-  text-align: center;
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  background-color: rgba(0, 0, 0, .5);
+  padding: 10px 20px;
 }
 .Section h1 {
   margin: 0;
@@ -43,6 +37,9 @@
 .row {
   margin: 0 auto;
   display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   color: #ffffff;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   border: solid;
@@ -55,15 +52,6 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-}
-
-@media (max-width: 930px) {
-  .first {
-  }
-  .row{
-    flex-direction: column;
-  }
- 
 }
 
 /* @media (max-width: 720px) {
