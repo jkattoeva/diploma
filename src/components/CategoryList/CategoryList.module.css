@@ -1,12 +1,5 @@
 .CategoryList {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
-}
-
-
-@media (max-width: 730px) {
-  .CategoryList {
-    justify-content: center;
-  }
 }
