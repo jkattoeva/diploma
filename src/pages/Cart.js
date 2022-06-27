@@ -1,5 +1,4 @@
 import Header from "../components/Header/Header";
-import image from "../assets/headerImage.jpg";
 import { useDispatch, useSelector } from "react-redux";
 import { getProducts } from "../data/products";
 import { Link } from "react-router-dom";
@@ -40,7 +39,7 @@ function Cart() {
 
   return (
     <>
-      <Header title="Your Shopping Cart" image={image}>
+      <Header title="Your Shopping Cart">
         Please review items in your cart.
       </Header>
       <div>
