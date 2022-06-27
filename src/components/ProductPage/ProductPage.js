@@ -19,17 +19,14 @@ function ProductPage() {
           <img
             src={product.image2}
             alt={product.title}
-            className={classes.image}
           />
           <img
             src={product.image3}
             alt={product.title}
-            className={classes.image}
           />
           <img
             src={product.image4}
             alt={product.title}
-            className={classes.image}
           />
         </div>
         <div className={classes.section}>
