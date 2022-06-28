@@ -1,6 +1,5 @@
 
 import Home from "./pages/Home";
-import SignUp from "./pages/SignUp";
 import About from "./pages/About";
 import { Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
@@ -34,7 +33,6 @@ function App() {
           <Route path="/categories/:categoryId" element={<Category />} />
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/signUp" element={<SignUp />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/checkout" element={<Checkout />} />
           <Route path="/auth" element={<Auth />} />
