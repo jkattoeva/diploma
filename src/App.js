@@ -15,6 +15,7 @@ import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import Auth from "./pages/Auth";
 import NotFound from "./pages/NotFound";
+import SignOut from "./pages/SignOut";
 
 function App() {
   const dispatch = useDispatch();
@@ -38,6 +39,8 @@ function App() {
           <Route path="/checkout" element={<Checkout />} />
           <Route path="/auth" element={<Auth />} />
           <Route path="/favourite" element={<Favourite />} />
+          <Route path="/auth" element={<Auth />} />
+          <Route path="/signout" element={<SignOut />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>
