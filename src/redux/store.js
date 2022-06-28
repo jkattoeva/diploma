@@ -1,13 +1,20 @@
 import { configureStore } from "@reduxjs/toolkit";
 import authSlice from "./authSlice";
-import сartSlice from "./сartSlice";
-
+import cartSlice from "./сartSlice";
 
 const store = configureStore({
   reducer: {
-    cart: сartSlice,
-    auth: authSlice,
+    cart: cartSlice,
+    auth: authSlice
   }
+});
+
+store.subscribe(() => {
+  localStorage.setItem('cartItems', JSON.stringify(
+    store.getState().cart.items
+  ));
+
+  console.log(store.getState().auth);
 });
 
 export default store;
