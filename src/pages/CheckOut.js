@@ -1,78 +1,64 @@
 import Header from "../components/Header/Header";
-import image from "../assets/headerImage.jpg";
 import { useDispatch, useSelector } from "react-redux";
-import { getProducts } from "../data/products";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 import { checkout } from "../redux/сartSlice";
-import classes from "./Checkout.module.css";
 
 function Checkout() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
-  const items = useSelector(store => store.cart.items);
-  const products = getProducts();
+  const { items, localId } = useSelector(store => ({
+    items: store.cart.items,
+    localId: store.auth.localId
+  }));
 
-  let total = 0;
-  let output = products
-    .filter(product => items[product.productId])
-    .map(product => {
-      total += product.price * items[product.productId];
-
-      return (
-        <div>
-          <Link to="">{product.title}</Link> {items[product.productId]} ${product.price * items[product.productId]}
-        </div>
-      );
-    });
-
-  if (!output) {
-    output = "No items in the cart.";
-  }
+  useEffect(() => {
+    if (!localId) {
+      navigate('/auth');
+    }
+  }, [localId, navigate]);
 
   function onCheckout(event) {
     event.preventDefault();
 
     const formData = new FormData(event.target);
-    const order = { items: items, ...Object.fromEntries(formData.entries()) };
-    dispatch(checkout(order));
+    dispatch(checkout({
+      localId: localId,
+      items: items,
+      ...Object.fromEntries(formData.entries()),
+    }));
     navigate('/');
   }
 
   return (
-    <div className={classes.Checkout}>
+    <>
       <Header
-        title="Checkout"
-        image={image}>
+        title="Checkout">
         Please enter your information.
       </Header>
-      <div>
-        {output}
-        <hr />
-        Total: ${total}
 
-        <form onSubmit={onCheckout} className={classes.inputs}>
-          <label>
-            First name: <br/>
-            <input type="text" name="firstName" required />
-          </label>
-          <label>
-            Last name:<br/>
-            <input type="text" name="lastName" required />
-          </label>
-          <label>
-            Address:<br/>
-            <input type="text" name="address" required />
-          </label>
-          <label>
-            Phone:<br/>
-            <input type="text" name="phone" required />
-          </label>
 
-          <button className={classes.btn}>Complete the order</button>
-        </form>
+      <form onSubmit={onCheckout}>
+        <label>
+          First name:
+          <input type="text" name="firstName" required />
+        </label>
+        <label>
+          Last name:
+          <input type="text" name="lastName" required />
+        </label>
+        <label>
+          Address:
+          <input type="text" name="address" required />
+        </label>
+        <label>
+          Phone:
+          <input type="text" name="phone" required />
+        </label>
 
-      </div>
-    </div>
+        <button>Complete the order</button>
+      </form>
+    </>
   );
 }
 
