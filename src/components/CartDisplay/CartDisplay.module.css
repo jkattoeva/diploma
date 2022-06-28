@@ -1,0 +1,25 @@
+.CartList {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 2px;
+}
+.CartList .image {
+  box-shadow: 0 0 10px rgb(0 0 0 / 30%);
+  height: 100px;
+  object-fit: cover;
+  object-position: bottom;
+  overflow: hidden;
+  transition: 1s;
+  width: 100px;
+  z-index: 2;
+}
+.CartList .a {
+  background-color: rgba(0,0,0,.164);
+  border-radius: 5px;
+  color: #fff;
+  height: 25px;
+  padding: 0 5px;
+  text-decoration: none;
+}
