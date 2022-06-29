@@ -31,7 +31,7 @@ function CartDisplay() {
             <button onClick={() => dispatch(decrement(product.productId))}>
               -
             </button>
-            {items[product.productId]}
+            <span>{items[product.productId]}</span>
             <button onClick={() => dispatch(increment(product.productId))}>
               +
             </button>
