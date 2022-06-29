@@ -22,11 +22,9 @@
 
 
 @media (max-width: 810px) {
-  .Nav ul {
-    align-items: center;
-    padding: 0;
-  }
   .Nav {
     flex-direction: column;
+    align-items: center;
+    padding: 0;
   }
 }
