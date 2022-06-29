@@ -26,8 +26,9 @@
   margin-right: 2rem;
   padding: 0 4rem 0;
   font-size: 1.2rem;
-  color: rgb(239, 239, 239);
+  color: rgb(236, 236, 236);
   text-align: center;
+  background-color: rgba(121, 109, 109, 0.482);
 }
 .Header h1 {
   margin: 0;
