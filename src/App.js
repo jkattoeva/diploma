@@ -36,7 +36,7 @@ function App() {
           <Route path="/cart" element={<Cart />} />
           <Route path="/checkout" element={<Checkout />} />
           <Route path="/auth" element={<Auth />} />
-          <Route path="/favourite" element={<Favourite />} />
+          <Route path="/favourite" element={<NotFound />} />
           <Route path="/auth" element={<Auth />} />
           <Route path="/signout" element={<SignOut />} />
           <Route path="*" element={<NotFound />} />
