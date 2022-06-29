@@ -22,6 +22,7 @@
   height: 25px;
   padding: 0 5px;
   text-decoration: none;
+  font-weight: bold;
 }
    button {
   background-color: #6c5454;
@@ -77,6 +78,13 @@
 .CartDisplay .product {
   padding: 20px;
   border-right: 1px solid black;
+}
+.CartDisplay span {
+  margin: 0 1rem;
+  font-weight: bold;
+}
+.prices {
+  font-weight: bold;
 }
 
 /* @media (max-width: 800px) {
