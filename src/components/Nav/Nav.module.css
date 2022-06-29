@@ -1,6 +1,7 @@
 .Nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
   margin: 0;
 }
@@ -14,11 +15,18 @@
   padding: 0;
   margin: 0 -50px 0 0;
 }
+.CartLink  {
+  padding: 0;
+  margin: 0;
+}
 
 
-/* @media (max-width: 810px) {
+@media (max-width: 810px) {
+  .Nav ul {
+    align-items: center;
+    padding: 0;
+  }
   .Nav {
     flex-direction: column;
-    margin: 1rem 0;
   }
-} */
+}
