@@ -1,7 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
-import Header from "../Header/Header";
 import { checkout } from "../../redux/сartSlice";
 import classes from "./CheckoutDisplay.module.css";
 

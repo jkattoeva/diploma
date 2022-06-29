@@ -8,7 +8,6 @@ import Categories from "./pages/Categories";
 import Category from "./pages/Category";
 import Products from "./pages/Products";
 import Cart from "./pages/Cart";
-import Favourite from "./pages/Favourite";
 import Checkout from "./pages/CheckOut";
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
