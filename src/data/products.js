@@ -69,9 +69,9 @@ const products = [
     image4: versage4,
     productId: "verasage",
     categoryId: "women", 
-    title: "Medusa Aevitas Platfrom ",
-    description: `Versage® is one of the world's most evolving.`,
-    price: 1250,
+    title: "Versace",
+    description: `slip-on platform loafers`,
+    price: 866,
   },
   {
     image: meteor1,
