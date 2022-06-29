@@ -5,6 +5,7 @@ import signout from "../../assets/signout.svg";
 import Favourite from "../../assets/favourite.svg";
 import CartLink from "../CartLink.js/CartLink";
 import { useSelector } from "react-redux";
+import { NavLink } from "react-router-dom";
 
 function Nav() {
   const isAuthenticated = useSelector((store) => store.auth.idToken !== null);
@@ -14,7 +15,7 @@ function Nav() {
       <NavItem url="/">Home</NavItem>
       <NavItem url="/products">Products</NavItem>
       <NavItem url="/about">About</NavItem>
-      <CartLink />
+      <NavLink to="/cart" className={classes.CartLink}><CartLink /></NavLink>
       <NavItem url="/favourite">
         <img src={Favourite} alt="favourite" />
       </NavItem>
