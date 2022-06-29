@@ -4,7 +4,6 @@ import { getProducts } from "../../data/products";
 import { useDispatch, useSelector } from "react-redux";
 import classes from "./CartDisplay.module.css";
 
-
 function CartDisplay() {
   const items = useSelector((store) => store.cart.items);
   const dispatch = useDispatch();
@@ -18,16 +17,32 @@ function CartDisplay() {
 
       return (
         <div className={classes.CartList}>
-          <img src={product.image} alt={product.title} className={classes.image} />
-          <Link className={classes.a} to="">{product.title}</Link> 
-          {items[product.productId]}
-          
-          <button onClick={() => dispatch(decrement(product.productId))}>-</button>
-          <div className={classes.prices}> $
-          {product.price * items[product.productId]}
+          <img
+            src={product.image}
+            alt={product.title}
+            className={classes.image}
+          />
+          <Link className={classes.a} to="">
+            {product.title}
+          </Link>
+    
+
+          <div>
+            <button onClick={() => dispatch(decrement(product.productId))}>
+              -
+            </button>
+            {items[product.productId]}
+            <button onClick={() => dispatch(increment(product.productId))}>
+              +
+            </button>
           </div>
-          <button onClick={() => dispatch(increment(product.productId))}>+</button>
-          <button onClick={() => dispatch(remove(product.productId))}>Delete</button>
+          <div className={classes.prices}>
+            {" "}
+            ${product.price * items[product.productId]}
+          </div>
+          <button onClick={() => dispatch(remove(product.productId))}>
+            Delete
+          </button>
         </div>
       );
     });
@@ -38,11 +53,19 @@ function CartDisplay() {
 
   return (
     <>
-      <div>
-        {output}
+      <div className={classes.CartDisplay}>
+        <div className={classes.cart}>
+          <h1>Your Shopping Bag </h1>
+          <div className={classes.product}>{output}</div>
+        </div>
         <hr />
-        <div className={classes.total}>Total: ${total}</div>
-        <Link className={classes.checkout} to="/checkout"><button className={classes.buttons}>CheckOut</button></Link>
+        <div className={classes.summary}>
+          <h1>Products Summary</h1>
+          <div className={classes.total}>Total: ${total}</div>
+          <Link className={classes.checkout} to="/checkout">
+            <button className={classes.button}>Go To CheckOut</button>
+          </Link>
+        </div>
       </div>
     </>
   );
