@@ -1,0 +1,33 @@
+.checkout h1 {
+  color: white;
+  text-align: center;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  background-image: #6c5454;
+  margin: 5rem;
+}
+.inputs input {
+  width: 20rem;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+}
+.inputs label {
+  color: white;
+}
+.checkout button {
+  padding: 0 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  height: 40px;
+  width: 300px;
+  background-color: #6c5454;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
