@@ -18,7 +18,7 @@ const categories = [
     description: "Обувь — изделие для предохранения ног от внешних воздействий и несущее утилитарные и эстетические функции."
   },
   {
-    categoryId: "accessories",
+    categoryId: "Accessories",
     title: "accessories",
     image: accesoriesCategory,
     description: "Обувь — изделие для предохранения ног от внешних воздействий и несущее утилитарные и эстетические функции."
