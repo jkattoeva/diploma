@@ -6,15 +6,16 @@ import Section from "../components/Section/Section";
 function Home() {
   return (
     <>
-    <Header title="Welcome to our FARFETCH shoes" image={shoeImage}>
+      <Header title="Welcome to our FARFETCH shoes" image={shoeImage}>
+        A shoe is an item of footwear intended to protect and comfort the human
+        foot. Shoes are also used as an item of decoration and fashion. The
+        design of shoes has varied enormously through time and from culture to
+        culture
+      </Header>
 
-    A shoe is an item of footwear intended to protect and comfort the human foot. Shoes are also used as an item of decoration and fashion. The design of shoes has varied enormously through time and from culture to culture
-    </Header>
+      <Section />
 
-    <Section />
-
-    <CategoryList categories={getCategories()}/>
-    
+      <CategoryList categories={getCategories()} />
     </>
   );
 }

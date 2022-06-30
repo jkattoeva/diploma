@@ -25,7 +25,6 @@ function CartDisplay() {
           <Link className={classes.a} to="">
             {product.title}
           </Link>
-    
 
           <div>
             <button onClick={() => dispatch(decrement(product.productId))}>

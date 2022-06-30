@@ -16,18 +16,9 @@ function ProductPage() {
             alt={product.title}
             className={classes.image}
           />
-          <img
-            src={product.image2}
-            alt={product.title}
-          />
-          <img
-            src={product.image3}
-            alt={product.title}
-          />
-          <img
-            src={product.image4}
-            alt={product.title}
-          />
+          <img src={product.image2} alt={product.title} />
+          <img src={product.image3} alt={product.title} />
+          <img src={product.image4} alt={product.title} />
         </div>
         <div className={classes.section}>
           <h1 className={classes.title}>{product.title}</h1>

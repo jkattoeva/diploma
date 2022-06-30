@@ -12,7 +12,6 @@ function Category() {
     return null;
   }
 
-
   return (
     <>
       {/* <Header
@@ -22,7 +21,7 @@ function Category() {
       </Header> */}
       <CategoryDisplay />
 
-      <ProductList products={getProducts(category.categoryId)}/>
+      <ProductList products={getProducts(category.categoryId)} />
     </>
   );
 }

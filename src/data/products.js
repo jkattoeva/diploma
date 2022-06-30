@@ -38,12 +38,6 @@ import gia2 from "../assets/giabor2.jpg";
 import gia3 from "../assets/giabor3.jpg";
 import gia4 from "../assets/giabor4.jpg";
 
-
-
-
-
-
-
 import nBalance847v4 from "../assets/nBalance847v4.jpg";
 
 import women3 from "../assets/women3.jpg";
@@ -63,9 +57,6 @@ import acces2 from "../assets/acces2.jpg";
 import acces3 from "../assets/acces3.jpg";
 import acces4 from "../assets/acces4.jpg";
 
-
-
-
 const products = [
   {
     image: versage1,
@@ -73,7 +64,7 @@ const products = [
     image3: versage3,
     image4: versage4,
     productId: "verasage",
-    categoryId: "women", 
+    categoryId: "women",
     title: "Versace",
     description: `Slip-on platform loafers`,
     price: 866,
@@ -84,7 +75,7 @@ const products = [
     image3: meteor3,
     image4: meteor4,
     productId: "OW",
-    categoryId: "women", 
+    categoryId: "women",
     title: "Off-White",
     description: `Meteor logo-tag mules`,
     price: 433,
@@ -95,7 +86,7 @@ const products = [
     image3: gia3,
     image4: gia4,
     productId: "women",
-    categoryId: "women", 
+    categoryId: "women",
     title: "GIABORGINI",
     description: `x RHW Rosie 13 sandals`,
     price: 262,
@@ -106,7 +97,7 @@ const products = [
     image3: vega3,
     image4: vega4,
     productId: "louis vuiton",
-    categoryId: "men", 
+    categoryId: "men",
     title: "VEJA",
     description: `V-10 leather low-top sneakers`,
     price: 137,
@@ -117,7 +108,7 @@ const products = [
     image3: vulcanized3,
     image4: vulcanized4,
     productId: "givenchy",
-    categoryId: "men", 
+    categoryId: "men",
     title: "Off-White",
     description: `Vulcanized low-top sneakers`,
     price: 230,
@@ -125,7 +116,7 @@ const products = [
   {
     image: nBalance847v4,
     productId: "nike",
-    categoryId: "men", 
+    categoryId: "men",
     title: "847v4",
     description: `oifjoeifjpsjfpsjf sefohisjoid s sfsf0f[s vs90fs0f8s f0s`,
     price: 150,
@@ -136,7 +127,7 @@ const products = [
     image3: khaite3,
     image4: khaite4,
     productId: "nierthjyke",
-    categoryId: "women", 
+    categoryId: "women",
     title: "KHAITE",
     description: `The Rockaway slides .`,
     price: 248,
@@ -147,7 +138,7 @@ const products = [
     image3: allen3,
     image4: allen4,
     productId: "Off-White",
-    categoryId: "women", 
+    categoryId: "women",
     title: "Off-White",
     description: `High Allen 100mm sandals`,
     price: 446,
@@ -155,7 +146,7 @@ const products = [
   {
     image: women3,
     productId: "trhyjh",
-    categoryId: "women", 
+    categoryId: "women",
     title: "847v4",
     description: `oifjoeifjpsjfpsjf sefohisjoid s sfsf0f[s vs90fs0f8s f0s`,
     price: 150,
@@ -163,7 +154,7 @@ const products = [
   {
     image: women4,
     productId: "rehtj",
-    categoryId: "women", 
+    categoryId: "women",
     title: "847v4",
     description: `oifjoeifjpsjfpsjf sefohisjoid s sfsf0f[s vs90fs0f8s f0s`,
     price: 150,
@@ -171,7 +162,7 @@ const products = [
   {
     image: women5,
     productId: "ewrty",
-    categoryId: "women", 
+    categoryId: "women",
     title: "847v4",
     description: `oifjoeifjpsjfpsjf sefohisjoid s sfsf0f[s vs90fs0f8s f0s`,
     price: 150,
@@ -179,7 +170,7 @@ const products = [
   {
     image: women6,
     productId: "kujyht",
-    categoryId: "women", 
+    categoryId: "women",
     title: "847v4",
     description: `oifjoeifjpsjfpsjf sefohisjoid s sfsf0f[s vs90fs0f8s f0s`,
     price: 150,
@@ -190,7 +181,7 @@ const products = [
     image3: odsy3,
     image4: odsy4,
     productId: "ertyj",
-    categoryId: "women", 
+    categoryId: "women",
     title: "Off-White",
     description: `Odsy 1000 sneakers`,
     price: 382,
@@ -198,7 +189,7 @@ const products = [
   {
     image: men1,
     productId: "ertjgh",
-    categoryId: "men", 
+    categoryId: "men",
     title: "847v4",
     description: `oifjoeifjpsjfpsjf sefohisjoid s sfsf0f[s vs90fs0f8s f0s`,
     price: 150,
@@ -206,7 +197,7 @@ const products = [
   {
     image: men2,
     productId: "tyjj,h",
-    categoryId: "men", 
+    categoryId: "men",
     title: "847v4",
     description: `oifjoeifjpsjfpsjf sefohisjoid s sfsf0f[s vs90fs0f8s f0s`,
     price: 150,
@@ -214,7 +205,7 @@ const products = [
   {
     image: men3,
     productId: "ytj,",
-    categoryId: "men", 
+    categoryId: "men",
     title: "847v4",
     description: `oifjoeifjpsjfpsjf sefohisjoid s sfsf0f[s vs90fs0f8s f0s`,
     price: 150,
@@ -222,7 +213,7 @@ const products = [
   {
     image: men4,
     productId: "fjhm,",
-    categoryId: "men", 
+    categoryId: "men",
     title: "847v4",
     description: `oifjoeifjpsjfpsjf sefohisjoid s sfsf0f[s vs90fs0f8s f0s`,
     price: 150,
@@ -230,7 +221,7 @@ const products = [
   {
     image: men5,
     productId: "nikreth,ke",
-    categoryId: "men", 
+    categoryId: "men",
     title: "847v4",
     description: `oifjoeifjpsjfpsjf sefohisjoid s sfsf0f[s vs90fs0f8s f0s`,
     price: 150,
@@ -238,7 +229,7 @@ const products = [
   {
     image: men6,
     productId: "tryjj",
-    categoryId: "men", 
+    categoryId: "men",
     title: "847v4",
     description: `oifjoeifjpsjfpsjf sefohisjoid s sfsf0f[s vs90fs0f8s f0s`,
     price: 150,
@@ -246,7 +237,7 @@ const products = [
   {
     image: acces1,
     productId: "yjk.,jkhgh",
-    categoryId: "accessories", 
+    categoryId: "accessories",
     title: "847v4",
     description: `oifjoeifjpsjfpsjf sefohisjoid s sfsf0f[s vs90fs0f8s f0s`,
     price: 150,
@@ -254,7 +245,7 @@ const products = [
   {
     image: acces2,
     productId: "uykjhhfg",
-    categoryId: "accessories", 
+    categoryId: "accessories",
     title: "847v4",
     description: `oifjoeifjpsjfpsjf sefohisjoid s sfsf0f[s vs90fs0f8s f0s`,
     price: 150,
@@ -262,7 +253,7 @@ const products = [
   {
     image: acces3,
     productId: "rthmj",
-    categoryId: "accessories", 
+    categoryId: "accessories",
     title: "847v4",
     description: `oifjoeifjpsjfpsjf sefohisjoid s sfsf0f[s vs90fs0f8s f0s`,
     price: 150,
@@ -270,25 +261,22 @@ const products = [
   {
     image: acces4,
     productId: "asdefdfg",
-    categoryId: "accessories", 
+    categoryId: "accessories",
     title: "847v4",
     description: `oifjoeifjpsjfpsj sefohisjoid s sfsf0f[s vs90fs0f8s f0s`,
     price: 150,
   },
 ];
 
-
 export function getProducts(categoryId) {
   if (categoryId) {
-    return products.filter(product => product.categoryId === categoryId);
+    return products.filter((product) => product.categoryId === categoryId);
   }
   return products;
 }
 
 export function getProduct(productId) {
   return products[
-    products.findIndex(
-      product => product.productId === productId
-    )
+    products.findIndex((product) => product.productId === productId)
   ];
 }

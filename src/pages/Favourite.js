@@ -1,8 +1,4 @@
-
 function Favourite() {
-  return (
-    <>
-    </>
-  );
+  return <></>;
 }
- export default Favourite;
+export default Favourite;

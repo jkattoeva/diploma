@@ -10,14 +10,11 @@ function Layout({ children }) {
     setDrawerOpen(!drawerOpen);
   }
 
-
   return (
     <main className="Layout">
-      <Toolbar toggleDrawer={toggleDrawer}/>
-      <Drawer open={drawerOpen} toggle={toggleDrawer}/>
-      <div className="container">
-      {children}
-      </div>
+      <Toolbar toggleDrawer={toggleDrawer} />
+      <Drawer open={drawerOpen} toggle={toggleDrawer} />
+      <div className="container">{children}</div>
       <Footer />
     </main>
   );

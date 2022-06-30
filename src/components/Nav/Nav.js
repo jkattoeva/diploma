@@ -16,13 +16,25 @@ function Nav() {
       <NavItem url="/">Home</NavItem>
       <NavItem url="/products">Products</NavItem>
       <NavItem url="/about">About</NavItem>
-      <NavLink to="/cart" className={classes.CartLink}><CartLink /></NavLink>
+      <NavLink to="/cart" className={classes.CartLink}>
+        <CartLink />
+      </NavLink>
       <NavItem url="/favourite">
         <img src={Favourite} alt="favourite" />
       </NavItem>
-      {isAuthenticated ? <NavItem url="/signout"><img src={signout} alt="signin" /></NavItem> : null}
-      {!isAuthenticated ? <NavItem url="/auth"><img src={signin} alt="signout" /></NavItem> : null}
-      <NavItem url="/history"><img src={history} alt="history"/></NavItem>
+      {isAuthenticated ? (
+        <NavItem url="/signout">
+          <img src={signout} alt="signin" />
+        </NavItem>
+      ) : null}
+      {!isAuthenticated ? (
+        <NavItem url="/auth">
+          <img src={signin} alt="signout" />
+        </NavItem>
+      ) : null}
+      <NavItem url="/history">
+        <img src={history} alt="history" />
+      </NavItem>
     </ul>
   );
 }

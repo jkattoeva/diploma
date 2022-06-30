@@ -12,7 +12,7 @@ function Product() {
 
   return (
     <>
-    <ProductPage />
+      <ProductPage />
     </>
   );
 }

@@ -1,4 +1,3 @@
-
 import Home from "./pages/Home";
 import About from "./pages/About";
 import { Route, Routes } from "react-router-dom";
@@ -18,9 +17,9 @@ import History from "./pages/History";
 
 function App() {
   const dispatch = useDispatch();
-  
+
   useEffect(() => {
-    dispatch({ type: 'cart/restore' });
+    dispatch({ type: "cart/restore" });
   }, [dispatch]);
 
   return (

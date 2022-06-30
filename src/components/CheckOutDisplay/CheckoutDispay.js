@@ -7,14 +7,14 @@ import classes from "./CheckoutDisplay.module.css";
 function CheckoutDisplay() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
-  const { items, localId } = useSelector(store => ({
+  const { items, localId } = useSelector((store) => ({
     items: store.cart.items,
-    localId: store.auth.localId
+    localId: store.auth.localId,
   }));
 
   useEffect(() => {
     if (!localId) {
-      navigate('/auth');
+      navigate("/auth");
     }
   }, [localId, navigate]);
 
@@ -22,17 +22,19 @@ function CheckoutDisplay() {
     event.preventDefault();
 
     const formData = new FormData(event.target);
-    dispatch(checkout({
-      localId: localId,
-      items: items,
-      ...Object.fromEntries(formData.entries()),
-    }));
-    navigate('/');
+    dispatch(
+      checkout({
+        localId: localId,
+        items: items,
+        ...Object.fromEntries(formData.entries()),
+      })
+    );
+    navigate("/");
   }
 
   return (
     <div className={classes.checkout}>
-    <h1>Please enter your information.</h1>
+      <h1>Please enter your information.</h1>
       <form className={classes.inputs} onSubmit={onCheckout}>
         <label>
           <div>First name:</div>
