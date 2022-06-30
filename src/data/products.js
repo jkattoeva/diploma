@@ -33,12 +33,17 @@ import odsy2 from "../assets/odsy2.jpg";
 import odsy3 from "../assets/odsy3.jpg";
 import odsy4 from "../assets/odsy4.jpg";
 
+import gia1 from "../assets/giabor1.jpg";
+import gia2 from "../assets/giabor2.jpg";
+import gia3 from "../assets/giabor3.jpg";
+import gia4 from "../assets/giabor4.jpg";
 
 
 
 
 
-import versageSandals from "../assets/versageSandals.jpg";
+
+
 import nBalance847v4 from "../assets/nBalance847v4.jpg";
 
 import women3 from "../assets/women3.jpg";
@@ -70,7 +75,7 @@ const products = [
     productId: "verasage",
     categoryId: "women", 
     title: "Versace",
-    description: `slip-on platform loafers`,
+    description: `Slip-on platform loafers`,
     price: 866,
   },
   {
@@ -85,12 +90,15 @@ const products = [
     price: 433,
   },
   {
-    image: versageSandals,
+    image: gia1,
+    image2: gia2,
+    image3: gia3,
+    image4: gia4,
     productId: "women",
     categoryId: "women", 
-    title: "Greca Maze Platform Sandals",
-    description: `oifjoeifjpsjfpsjf sefohisjoid s sfsf0f[s vs90fs0f8s f0s`,
-    price: 150,
+    title: "GIABORGINI",
+    description: `x RHW Rosie 13 sandals`,
+    price: 262,
   },
   {
     image: vega1,
