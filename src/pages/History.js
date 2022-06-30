@@ -24,7 +24,7 @@ function Orders() {
       });
   }, []);
 
-  let output = <h1>Plase</h1>;
+  let output = <h1>Loading , please wait...</h1>;
   if (orders !== null) {
     orders
       .filter((idLocal) => idLocal.localId === localId)
