@@ -1,4 +1,3 @@
-import productImage from "../../assets/product1.jpg";
 import classes from "./CategoryDisplay.module.css";
 function CategoryDisplay() {
   return (
