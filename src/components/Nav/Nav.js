@@ -6,6 +6,7 @@ import Favourite from "../../assets/favourite.svg";
 import CartLink from "../CartLink.js/CartLink";
 import { useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
+import history from "../../assets/history.svg";
 
 function Nav() {
   const isAuthenticated = useSelector((store) => store.auth.idToken !== null);
@@ -21,6 +22,7 @@ function Nav() {
       </NavItem>
       {isAuthenticated ? <NavItem url="/signout"><img src={signout} alt="signin" /></NavItem> : null}
       {!isAuthenticated ? <NavItem url="/auth"><img src={signin} alt="signout" /></NavItem> : null}
+      <NavItem url="/history"><img src={history} alt="history"/></NavItem>
     </ul>
   );
 }
