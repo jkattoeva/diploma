@@ -7,7 +7,6 @@ function CategoryDisplay() {
         <h1>Our products are relevant for everyone</h1>
         <p>You can order and get on and quality footwear products</p>
       </div>
-      <img src={productImage} alt="image" />
     </div>
   );
 }
