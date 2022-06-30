@@ -1,0 +1,11 @@
+.CategoryDisplay {
+  display: flex;
+  justify-content: space-around;
+  margin: 5rem;
+}
+.CategoryDisplay img {
+  width: 300px;
+}
+.CategoryDisplay div {
+  color: white;
+}
