@@ -1,5 +1,4 @@
 import { useParams } from "react-router-dom";
-import Header from "../components/Header/Header";
 import { getCategory } from "../data/categories";
 import { getProducts } from "../data/products";
 import ProductList from "../components/ProductList/ProductList";
