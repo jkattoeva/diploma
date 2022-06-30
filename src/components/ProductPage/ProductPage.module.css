@@ -1,6 +1,7 @@
 .ProductPage {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: space-evenly;
   background-color: white;
   padding: 1rem;
@@ -34,10 +35,14 @@
 .ProductPage .section {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 40px;
   margin-top: 2rem;
   max-width: 300px;
   width: 100%;
+  font-weight: bold;
+  border: 2px solid black;
+  padding: 1rem;
+  border-radius: 5px;
 }
 .ProductPage .buttons {
   display: flex;
