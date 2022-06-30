@@ -14,6 +14,7 @@ import { useDispatch } from "react-redux";
 import Auth from "./pages/Auth";
 import NotFound from "./pages/NotFound";
 import SignOut from "./pages/SignOut";
+import History from "./pages/History";
 
 function App() {
   const dispatch = useDispatch();
@@ -39,6 +40,7 @@ function App() {
           <Route path="/auth" element={<Auth />} />
           <Route path="/signout" element={<SignOut />} />
           <Route path="*" element={<NotFound />} />
+          <Route path="/history" element={<History />} />
         </Routes>
       </Layout>
     </div>
