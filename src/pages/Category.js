@@ -3,6 +3,7 @@ import Header from "../components/Header/Header";
 import { getCategory } from "../data/categories";
 import { getProducts } from "../data/products";
 import ProductList from "../components/ProductList/ProductList";
+import CategoryDisplay from "../components/CategoryDisplay/CategoryDisplay";
 
 function Category() {
   const params = useParams();
@@ -15,11 +16,12 @@ function Category() {
 
   return (
     <>
-      <Header
+      {/* <Header
       title={category.title} 
       image={category.image}>
       {category.description}
-      </Header>
+      </Header> */}
+      <CategoryDisplay />
 
       <ProductList products={getProducts(category.categoryId)}/>
     </>
